@@ -77,9 +77,9 @@ def apply_titlebar_theme(win):
     try:
         version = sys.getwindowsversion()
         if version.major == 10 and version.build >= 22000:
-            pywinstyles.change_header_color(win, "#1c1c1c")
+            pywinstyles.apply_style(win, "mica")
         elif version.major == 10:
-            pywinstyles.apply_style(win, "dark")
+            pywinstyles.apply_style(win, "mica")
             win.wm_attributes("-alpha", 0.99)
             win.wm_attributes("-alpha", 1)
     except Exception:
