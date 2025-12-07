@@ -1,5 +1,5 @@
 # Work / Rest Timer
-Board as work so tried tkinter lib for graphical interface. Did it to rest my eyes and wrist.
+tried tkinter lib for graphical interface. Did it to rest my eyes and wrist.
 
 > It looks like this 
 >> <img width="471" height="373" alt="image" src="https://github.com/user-attachments/assets/2757db55-93f5-4f08-a91f-91b130ecf0c7" />
